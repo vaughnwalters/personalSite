@@ -1,3 +1,10 @@
+"use strict";
+
+function hmmm () {
+  console.log("hmmm i wonder what would happen if you typed 'whitley()' right now?");
+}
+hmmm();
+
 function whitley () {
   console.log("Are you ready to meet the second greatest country singer of all time?");
   setTimeout(function() {console.log("He's no stranger to the rain, ladies and gentlemen, introducing...");}, 2000);
