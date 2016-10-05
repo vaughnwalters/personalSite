@@ -5,7 +5,7 @@ function hmmm () {
 }
 hmmm();
 
-function whitley () {
+window.whitley = function () {
   console.log("Are you ready to meet the second greatest country singer of all time?");
   setTimeout(function() {console.log("He's no stranger to the rain, ladies and gentlemen, introducing...");}, 2000);
   setTimeout(function() {console.log("KEITH WHITLEY!");}, 4000);
