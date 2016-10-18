@@ -4,6 +4,7 @@ function hmmm () {
   console.log("hmmm i wonder what would happen if you typed 'whitley()' right now?");
 }
 hmmm();
+
 window.onload = function() {
   window.whitley = function () {
     console.log("Are you ready to meet the second greatest country singer of all time?");
