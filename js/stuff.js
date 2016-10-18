@@ -5,6 +5,7 @@ let sourceSwap = function () {
     let newSource = $this.data('alt-src');
     $this.data('alt-src', $this.attr('src'));
     $this.attr('src', newSource);
+    console.log("hee hee you tickled me!!!");
 }
 
 $(function () {
